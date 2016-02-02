@@ -14,6 +14,9 @@ class WTSKitchenViewController: UIViewController {
     @IBOutlet weak var orderDetailTableView: UITableView!
     @IBOutlet weak var ordersCollectionView: UICollectionView!
     
+    var dataSource : [Int] = []
+    var currentTableNumber: Int = 0
+    
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
@@ -26,7 +29,7 @@ class WTSKitchenViewController: UIViewController {
     // MARK: - IBActions
     
     @IBAction func startButtonTouchUpInside(sender: UIButton) {
-        // TODO: select next order, reload ordersCollectionView, reload orderDetailTableView
+        // TODO: select next order
     }
     
     // MARK: - Private Methods
@@ -41,7 +44,9 @@ class WTSKitchenViewController: UIViewController {
     }
     
     func prepareDataSource() {
-        // TODO: receive data source
+        // TODO: remove fake data source
+        dataSource = [5, 1, 3, 2, 8, 4, 10, 6]
+        
         tablesTableView.reloadData()
         ordersCollectionView.reloadData()
         prepareTableView()
@@ -56,25 +61,25 @@ class WTSKitchenViewController: UIViewController {
         
         let location = gesture.locationInView(ordersCollectionView)
         guard let path = ordersCollectionView.indexPathForItemAtPoint(location),
-              let cell = ordersCollectionView.cellForItemAtIndexPath(path) else {
-            return
+            let cell = ordersCollectionView.cellForItemAtIndexPath(path) else {
+                return
         }
         
         let snapshot = snapshotOfTheView(cell)
         let cellImageView = UIImageView(image: snapshot)
- 
+        
         // TODO: drag and drop
-       /* switch (gesture.state) {
-        case .Began:
-            cellImageView.center = location
-            self.ordersCollectionView.addSubview(cellImageView)
-        case .Changed:
-            cellImageView.center = location
-        case .Ended:
-            cellImageView.removeFromSuperview()
-        default:
-            break
-        }*/
+        /* switch (gesture.state) {
+         case .Began:
+         cellImageView.center = location
+         self.ordersCollectionView.addSubview(cellImageView)
+         case .Changed:
+         cellImageView.center = location
+         case .Ended:
+         cellImageView.removeFromSuperview()
+         default:
+         break
+         }*/
     }
     
     func snapshotOfTheView(view: UIView) -> UIImage {
@@ -105,7 +110,8 @@ extension WTSKitchenViewController: UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        // TODO: get table from data source, reload ordersCollectionView, orderDetailTableView
+        currentTableNumber = indexPath.row
+        ordersCollectionView.reloadData()
     }
 }
 
@@ -114,15 +120,14 @@ extension WTSKitchenViewController: UITableViewDelegate {
 extension WTSKitchenViewController: UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // TODO: remove hardcode
-        return 10
+        return dataSource.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:WTSTableTableViewCell = tableView.dequeueReusableCellWithIdentifier(tableTableViewCellIdentifier, forIndexPath: indexPath) as! WTSTableTableViewCell
         return cell
     }
-
+    
 }
 
 // MARK: - UICollectionViewDelegate
@@ -130,8 +135,8 @@ extension WTSKitchenViewController: UITableViewDataSource {
 extension WTSKitchenViewController: UICollectionViewDelegate {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // TODO: remove hardcode
-        return 10
+        // TODO: return orders count
+        return dataSource[currentTableNumber]
     }
 }
 
@@ -155,5 +160,3 @@ extension WTSKitchenViewController: UICollectionViewDelegateFlowLayout {
         return CGSize(width: cellWidth, height: cellHeight)
     }
 }
-
-

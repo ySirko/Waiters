@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  WaitersApp
+//
+//  Created by Yuriy Sirko on 2/2/16.
+//  Copyright © 2016 ThinkMobiles. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#endif

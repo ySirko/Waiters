@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B24D04D51C5FA7D200C1AF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D04D41C5FA7D200C1AF66 /* AppDelegate.swift */; };
-		B24D04D71C5FA7D200C1AF66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D04D61C5FA7D200C1AF66 /* ViewController.swift */; };
-		B24D04DA1C5FA7D200C1AF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D04D81C5FA7D200C1AF66 /* Main.storyboard */; };
-		B24D04DC1C5FA7D200C1AF66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B24D04DB1C5FA7D200C1AF66 /* Assets.xcassets */; };
+		B22AFAD21C6004D9008FA13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22AFAD11C6004D9008FA13F /* Main.storyboard */; };
+		B22AFAD41C6004E3008FA13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAD31C6004E3008FA13F /* AppDelegate.swift */; };
+		B22AFAD61C6004ED008FA13F /* WTSKitchenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAD51C6004ED008FA13F /* WTSKitchenViewController.swift */; };
+		B22AFADA1C6005DE008FA13F /* WTSTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAD91C6005DE008FA13F /* WTSTableTableViewCell.swift */; };
+		B22AFADC1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFADB1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift */; };
+		B22AFAE11C6009E9008FA13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22AFAE01C6009E9008FA13F /* Assets.xcassets */; };
+		B22AFAEF1C6015D7008FA13F /* UIColor+ApplicationColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAEE1C6015D7008FA13F /* UIColor+ApplicationColors.swift */; };
+		B22AFAF61C60FEE0008FA13F /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAF51C60FEE0008FA13F /* Table.swift */; };
+		B22AFAF81C60FEE9008FA13F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAF71C60FEE9008FA13F /* Order.swift */; };
+		B22AFAFD1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */; };
 		B24D04DF1C5FA7D200C1AF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D04DD1C5FA7D200C1AF66 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B22AFAD11C6004D9008FA13F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B22AFAD31C6004E3008FA13F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22AFAD51C6004ED008FA13F /* WTSKitchenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSKitchenViewController.swift; sourceTree = "<group>"; };
+		B22AFAD91C6005DE008FA13F /* WTSTableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSTableTableViewCell.swift; sourceTree = "<group>"; };
+		B22AFADB1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSOrderCollectionViewCell.swift; sourceTree = "<group>"; };
+		B22AFAE01C6009E9008FA13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22AFAED1C601553008FA13F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		B22AFAEE1C6015D7008FA13F /* UIColor+ApplicationColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ApplicationColors.swift"; sourceTree = "<group>"; };
+		B22AFAF51C60FEE0008FA13F /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		B22AFAF71C60FEE9008FA13F /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSOrderDetailTableViewCell.swift; sourceTree = "<group>"; };
 		B24D04D11C5FA7D100C1AF66 /* WaitersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B24D04D41C5FA7D200C1AF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B24D04D61C5FA7D200C1AF66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B24D04D91C5FA7D200C1AF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B24D04DB1C5FA7D200C1AF66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B24D04DE1C5FA7D200C1AF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B24D04E01C5FA7D200C1AF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B24D04E01C5FA7D200C1AF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B22AFAC61C5FED55008FA13F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD01C60048B008FA13F /* WTSKitchenViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B22AFAC91C5FF76A008FA13F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAE01C6009E9008FA13F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B22AFACA1C5FF864008FA13F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFACB1C5FF9C9008FA13F /* UITableViewCells */,
+				B22AFACC1C5FF9DB008FA13F /* UICollectionViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B22AFACB1C5FF9C9008FA13F /* UITableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD71C600526008FA13F /* WTSTableTableViewCell */,
+				B22AFAF91C611166008FA13F /* WTSOrderDetailTableViewCell */,
+			);
+			path = UITableViewCells;
+			sourceTree = "<group>";
+		};
+		B22AFACC1C5FF9DB008FA13F /* UICollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD81C600570008FA13F /* WTSOrderCollectionViewCell */,
+			);
+			path = UICollectionViewCells;
+			sourceTree = "<group>";
+		};
+		B22AFACD1C5FFD72008FA13F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFACF1C5FFEE9008FA13F /* Storyboard */,
+				B22AFACE1C5FFD7D008FA13F /* AppDelegate */,
+				B24D04DD1C5FA7D200C1AF66 /* LaunchScreen.storyboard */,
+				B22AFAED1C601553008FA13F /* PrefixHeader.pch */,
+				B24D04E01C5FA7D200C1AF66 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B22AFACE1C5FFD7D008FA13F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD31C6004E3008FA13F /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B22AFACF1C5FFEE9008FA13F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD11C6004D9008FA13F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B22AFAD01C60048B008FA13F /* WTSKitchenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD51C6004ED008FA13F /* WTSKitchenViewController.swift */,
+			);
+			path = WTSKitchenViewController;
+			sourceTree = "<group>";
+		};
+		B22AFAD71C600526008FA13F /* WTSTableTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAD91C6005DE008FA13F /* WTSTableTableViewCell.swift */,
+			);
+			path = WTSTableTableViewCell;
+			sourceTree = "<group>";
+		};
+		B22AFAD81C600570008FA13F /* WTSOrderCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFADB1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift */,
+			);
+			path = WTSOrderCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		B22AFAE31C6010FF008FA13F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAEA1C6013AE008FA13F /* Extensions */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22AFAEA1C6013AE008FA13F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAEB1C6013AE008FA13F /* UIColor+ApplicationColors */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B22AFAEB1C6013AE008FA13F /* UIColor+ApplicationColors */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAEE1C6015D7008FA13F /* UIColor+ApplicationColors.swift */,
+			);
+			path = "UIColor+ApplicationColors";
+			sourceTree = "<group>";
+		};
+		B22AFAF21C60FEA1008FA13F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAF31C60FEC0008FA13F /* Table */,
+				B22AFAF41C60FECE008FA13F /* Order */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B22AFAF31C60FEC0008FA13F /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAF51C60FEE0008FA13F /* Table.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		B22AFAF41C60FECE008FA13F /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAF71C60FEE9008FA13F /* Order.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		B22AFAF91C611166008FA13F /* WTSOrderDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */,
+			);
+			path = WTSOrderDetailTableViewCell;
+			sourceTree = "<group>";
+		};
 		B24D04C81C5FA7D100C1AF66 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +218,12 @@
 		B24D04D31C5FA7D200C1AF66 /* WaitersApp */ = {
 			isa = PBXGroup;
 			children = (
-				B24D04D41C5FA7D200C1AF66 /* AppDelegate.swift */,
-				B24D04D61C5FA7D200C1AF66 /* ViewController.swift */,
-				B24D04D81C5FA7D200C1AF66 /* Main.storyboard */,
-				B24D04DB1C5FA7D200C1AF66 /* Assets.xcassets */,
-				B24D04DD1C5FA7D200C1AF66 /* LaunchScreen.storyboard */,
-				B24D04E01C5FA7D200C1AF66 /* Info.plist */,
+				B22AFACD1C5FFD72008FA13F /* Application */,
+				B22AFAC61C5FED55008FA13F /* ViewControllers */,
+				B22AFACA1C5FF864008FA13F /* Views */,
+				B22AFAF21C60FEA1008FA13F /* Models */,
+				B22AFAE31C6010FF008FA13F /* Supporting Files */,
+				B22AFAC91C5FF76A008FA13F /* Resources */,
 			);
 			path = WaitersApp;
 			sourceTree = "<group>";
@@ -123,8 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24D04DF1C5FA7D200C1AF66 /* LaunchScreen.storyboard in Resources */,
-				B24D04DC1C5FA7D200C1AF66 /* Assets.xcassets in Resources */,
-				B24D04DA1C5FA7D200C1AF66 /* Main.storyboard in Resources */,
+				B22AFAE11C6009E9008FA13F /* Assets.xcassets in Resources */,
+				B22AFAD21C6004D9008FA13F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,28 +299,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B24D04D71C5FA7D200C1AF66 /* ViewController.swift in Sources */,
-				B24D04D51C5FA7D200C1AF66 /* AppDelegate.swift in Sources */,
+				B22AFAF61C60FEE0008FA13F /* Table.swift in Sources */,
+				B22AFADC1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift in Sources */,
+				B22AFAD61C6004ED008FA13F /* WTSKitchenViewController.swift in Sources */,
+				B22AFAEF1C6015D7008FA13F /* UIColor+ApplicationColors.swift in Sources */,
+				B22AFAFD1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift in Sources */,
+				B22AFADA1C6005DE008FA13F /* WTSTableTableViewCell.swift in Sources */,
+				B22AFAD41C6004E3008FA13F /* AppDelegate.swift in Sources */,
+				B22AFAF81C60FEE9008FA13F /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B24D04D81C5FA7D200C1AF66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B24D04D91C5FA7D200C1AF66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B24D04DD1C5FA7D200C1AF66 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B24D04DE1C5FA7D200C1AF66 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -198,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -237,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -249,10 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaitersApp/PrefixHeader.pch";
 				INFOPLIST_FILE = WaitersApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobiles.WaitersApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,6 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WaitersApp/PrefixHeader.pch";
 				INFOPLIST_FILE = WaitersApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobiles.WaitersApp;
@@ -286,6 +456,7 @@
 				B24D04E51C5FA7D200C1AF66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

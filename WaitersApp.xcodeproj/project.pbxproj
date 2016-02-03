@@ -17,6 +17,7 @@
 		B22AFAF61C60FEE0008FA13F /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAF51C60FEE0008FA13F /* Table.swift */; };
 		B22AFAF81C60FEE9008FA13F /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAF71C60FEE9008FA13F /* Order.swift */; };
 		B22AFAFD1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */; };
+		B234B5501C61EDD300C73AA1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B234B54F1C61EDD300C73AA1 /* Utils.swift */; };
 		B24D04DF1C5FA7D200C1AF66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B24D04DD1C5FA7D200C1AF66 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		B22AFAF51C60FEE0008FA13F /* Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
 		B22AFAF71C60FEE9008FA13F /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSOrderDetailTableViewCell.swift; sourceTree = "<group>"; };
+		B234B54F1C61EDD300C73AA1 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B24D04D11C5FA7D100C1AF66 /* WaitersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaitersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B24D04DE1C5FA7D200C1AF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B24D04E01C5FA7D200C1AF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		B22AFAE31C6010FF008FA13F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B234B54E1C61EDC700C73AA1 /* Utils */,
 				B22AFAEA1C6013AE008FA13F /* Extensions */,
 			);
 			path = "Supporting Files";
@@ -197,6 +200,14 @@
 				B22AFAFC1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift */,
 			);
 			path = WTSOrderDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		B234B54E1C61EDC700C73AA1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B234B54F1C61EDD300C73AA1 /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		B24D04C81C5FA7D100C1AF66 = {
@@ -301,6 +312,7 @@
 			files = (
 				B22AFAF61C60FEE0008FA13F /* Table.swift in Sources */,
 				B22AFADC1C6005FB008FA13F /* WTSOrderCollectionViewCell.swift in Sources */,
+				B234B5501C61EDD300C73AA1 /* Utils.swift in Sources */,
 				B22AFAD61C6004ED008FA13F /* WTSKitchenViewController.swift in Sources */,
 				B22AFAEF1C6015D7008FA13F /* UIColor+ApplicationColors.swift in Sources */,
 				B22AFAFD1C6111B9008FA13F /* WTSOrderDetailTableViewCell.swift in Sources */,

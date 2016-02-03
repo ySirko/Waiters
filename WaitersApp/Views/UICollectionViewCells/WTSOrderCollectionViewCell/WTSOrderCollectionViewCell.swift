@@ -15,4 +15,10 @@ class WTSOrderCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var orderNameLabel: UILabel!
     @IBOutlet weak var orderCounterLabel: UILabel!
     
+    // MARK: -
+    override var selected: Bool {
+        didSet {
+            backgroundColor = selected ? UIColor.lightBlueApplicationColor() : UIColor.whiteColor()
+        }
+    }
 }
